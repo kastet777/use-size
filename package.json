@@ -18,11 +18,13 @@
     "@types/react": "^16.8.0"
   },
   "dependencies": {
+    "@types/react": "^16.8.0",
     "react": "^16.8.0",
     "resize-observer-polyfill": "^1.5.1"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "typescript": "^3.7.3"
