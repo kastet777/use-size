@@ -1,5 +1,5 @@
 {
-  "name": "use-size",
+  "name": "use-size-react",
   "version": "0.1.0",
   "description": "React hook to use size of dom element via ref",
   "keywords": [
