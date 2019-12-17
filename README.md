@@ -2,7 +2,7 @@
 
 Use Size React is a react hook to track size of HTML element by passing ref.
 
-#Install
+### Install
 ```
 npm i use-size-react
 //or
