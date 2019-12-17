@@ -1,6 +1,6 @@
 {
   "name": "use-size-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React hook to use size of dom element via ref",
   "keywords": [
     "react",
@@ -15,11 +15,9 @@
   "repository": "github:kastet777/use-size",
   "bugs": "https://github.com/kastet777/use-size/issues",
   "peerDependencies": {
-    "@types/react": "^16.8.0"
+    "react": "^16.8.0"
   },
   "dependencies": {
-    "@types/react": "^16.8.0",
-    "react": "^16.8.0",
     "resize-observer-polyfill": "^1.5.1"
   },
   "scripts": {
@@ -27,6 +25,8 @@
     "prepare": "npm run build"
   },
   "devDependencies": {
+    "@types/react": "^16.8.0",
+    "react": "^16.8.0",
     "typescript": "^3.7.3"
   }
 }
