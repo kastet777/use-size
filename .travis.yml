@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "12.14"
+
+deploy:
+  provider: npm
+  email: kostikkisil@gmail.com
+  api_key: $NPM_AUTH_TOKEN
